@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.API", "ClinicalTrials.API\ClinicalTrials.API.csproj", "{33342265-20B5-4270-ACF1-DBD32D599E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Application", "ClinicalTrials.Application\ClinicalTrials.Application.csproj", "{815E6FB4-5771-44AE-9560-BC40F331BB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Domain", "ClinicalTrials.Domain\ClinicalTrials.Domain.csproj", "{721FA638-E585-4D4F-8D6E-71757E5663D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Infrastructure", "ClinicalTrials.Infrastructure\ClinicalTrials.Infrastructure.csproj", "{8DB5BE24-DBF2-4C14-9C0D-2211D6E703C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Tests", "ClinicalTrials.Tests\ClinicalTrials.Tests.csproj", "{01685275-DC51-4AF1-8CF8-F53B2A22A148}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DBC881F-5486-465C-B43E-7D6A053BACA3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.override.yml = docker-compose.override.yml
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33342265-20B5-4270-ACF1-DBD32D599E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33342265-20B5-4270-ACF1-DBD32D599E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33342265-20B5-4270-ACF1-DBD32D599E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33342265-20B5-4270-ACF1-DBD32D599E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815E6FB4-5771-44AE-9560-BC40F331BB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815E6FB4-5771-44AE-9560-BC40F331BB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815E6FB4-5771-44AE-9560-BC40F331BB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815E6FB4-5771-44AE-9560-BC40F331BB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721FA638-E585-4D4F-8D6E-71757E5663D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721FA638-E585-4D4F-8D6E-71757E5663D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721FA638-E585-4D4F-8D6E-71757E5663D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721FA638-E585-4D4F-8D6E-71757E5663D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB5BE24-DBF2-4C14-9C0D-2211D6E703C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB5BE24-DBF2-4C14-9C0D-2211D6E703C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB5BE24-DBF2-4C14-9C0D-2211D6E703C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB5BE24-DBF2-4C14-9C0D-2211D6E703C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01685275-DC51-4AF1-8CF8-F53B2A22A148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01685275-DC51-4AF1-8CF8-F53B2A22A148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01685275-DC51-4AF1-8CF8-F53B2A22A148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01685275-DC51-4AF1-8CF8-F53B2A22A148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

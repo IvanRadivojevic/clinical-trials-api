@@ -1,0 +1,38 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio
+.vs/
+*.ncrunch*
+*.dotCover
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+
+# Environment Settings
+appsettings.Production.json
+appsettings.Development.json
+
+# Docker volumes
+sqldata/
+
+# Tools
+*.swp
+*.bak
+*.cache
+*.tmp 

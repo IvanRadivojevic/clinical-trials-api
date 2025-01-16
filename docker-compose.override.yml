@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  clinicaltrials-api:
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ./ClinicalTrials.API:/app 
+      - ./ClinicalTrials.Infrastructure:/app/Infrastructure
