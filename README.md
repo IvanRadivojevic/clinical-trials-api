@@ -35,7 +35,7 @@ Copy `appsettings.json` to `appsettings.Production.json` and configure your prod
 
 ### Local Development
 1. Clone the repository
-      git clone https://github.com/IvanRadivojevic/clinical-trials-api.git
+      git clone https://github.com/ivanradivojevic/clinical-trials-api.git
 2. Restore NuGet packages
       dotnet restore
 3. Apply migrations
